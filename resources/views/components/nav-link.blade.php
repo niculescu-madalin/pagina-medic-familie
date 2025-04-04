@@ -2,14 +2,14 @@
 
 @php
 $activeClasses = 'inline-flex items-center '.
-    'px-6 pt-1 my-2 ' . 
+    'px-6 my-2 ' . 
     'rounded-lg bg-white shadow '.
     'text-md font-semibold '.
     'focus:outline-none focus:bg-gray-100 '.
     'transition duration-150 ease-in-out ';
 
 $inactiveClasses = 'inline-flex items-center '.
-    'px-6 pt-1 my-2 '.
+    'px-6 my-2 '.
     'rounded-lg '.
     'text-md font-medium text-white '.
     'hover:text-gray-700 hover:border-gray-300' .
