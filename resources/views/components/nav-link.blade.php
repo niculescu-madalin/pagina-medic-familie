@@ -3,7 +3,7 @@
 @php
 $activeClasses = 'inline-flex items-center '.
     'px-6 my-2 ' . 
-    'rounded bg-teal-100 shadow border-b-2 border-teal-800 '.
+    'rounded bg-teal-50 shadow border-b-2 border-teal-800 '.
     'text-md font-semibold text-teal-900 '.
     'focus:outline-none focus:bg-gray-100 '.
     'transition duration-150 ease-in-out ';
