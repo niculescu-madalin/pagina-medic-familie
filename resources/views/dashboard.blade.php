@@ -3,7 +3,7 @@
 
 <div id="default-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class=" relative h-96 overflow-hidden rounded-lg">
+    <div class=" relative h-80 overflow-hidden rounded-lg">
          <!-- Item 1 -->
         <div class=" hidden duration-700 ease-in-out" data-carousel-item>
             <img src="./assets/cabinet.jpg" class="absolute block w-full h-[500px] object-cover -translate-x-1/2 -translate-y-1/2 left-full top-full" alt="...">
@@ -38,19 +38,20 @@
     </button>
 </div>
 
-<div class="max-w-4xl mx-auto p-6">
-    <div class="bg-white rounded-2xl border p-8">
+<div class="mx-auto p-4 flex flex-col lg:flex-row gap-2">
+    <div class="bg-white rounded-2xl border p-8 basis-1/2">
       <h1 class="text-3xl font-bold text-teal-700 mb-2">Dr. Andrei Popescu</h1>
       <p class="text-xl text-gray-600 mb-4">Medic de Familie</p>
 
-      <p class="text-base mb-4">
-        Bine ați venit la cabinetul medical al Dr. Andrei Popescu, medic de familie dedicat sănătății tale și a familiei tale. 
-        Oferim servicii medicale personalizate, bazate pe încredere, profesionalism și grijă autentică.
+      <p class="text-base mb-4 leading-relaxed">
+        Cu o experiență de peste 15 ani în domeniul medicinei de familie, Dr. Andrei Popescu oferă servicii medicale complete și personalizate 
+        pentru pacienți de toate vârstele – de la nou-născuți la seniori. 
+        Misiunea cabinetului este de a oferi fiecărui pacient o abordare empatică, atentă și orientată spre prevenție, nu doar spre tratament.
       </p>
 
-      <p class="text-base mb-4">
-        Consultații generale, tratamente pentru afecțiuni cronice, vaccinări, analize și consiliere medicală – toate într-un mediu prietenos și sigur.
-        Aici, pacientul este pe primul loc.
+      <p class="text-base mb-4 leading-relaxed">
+        Dr. Popescu pune accent pe o relație deschisă și sinceră cu fiecare pacient, explicând în termeni clari diagnosticul și opțiunile de tratament. 
+        Într-un mediu liniștit și sigur, pacienții se pot simți înțeleși și încurajați să ia decizii informate pentru sănătatea lor și a celor dragi.
       </p>
 
       <div class="bg-teal-50 rounded-xl p-6 mt-6 border border-teal-600 border-2">
@@ -103,5 +104,29 @@
         <p class="text-gray-500">Te așteptăm cu drag la cabinet!</p>
       </div>
     </div>
+
+  <div class="bg-white rounded-2xl border border-teal-600 p-8 basis-1/2">
+    <h2 class="text-3xl font-semibold text-teal-800 mb-3">Servicii oferite</h2>
+      <ul class="list-disc list-inside space-y-2 text-base">
+        <li>Consultații generale și de specialitate în medicina de familie</li>
+        <li>Monitorizarea și tratamentul bolilor cronice (diabet, hipertensiune, astm, etc.)</li>
+        <li>Vaccinări pentru copii și adulți</li>
+        <li>Eliberare de adeverințe medicale, concedii, fișe medicale</li>
+        <li>Consultații la domiciliu pentru pacienții nedeplasabili</li>
+        <li>Consiliere privind nutriția și stilul de viață sănătos</li>
+        <li>Colaborare cu specialiști pentru investigații suplimentare</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold text-teal-800 mt-10 mb-3">De ce să ne alegi?</h2>
+      <ul class="list-disc list-inside space-y-2 text-base">
+        <li>Răbdare, empatie și comunicare clară cu fiecare pacient</li>
+        <li>Acces rapid la consultații, fără liste de așteptare interminabile</li>
+        <li>Program flexibil și consultații adaptate nevoilor fiecăruia</li>
+        <li>Cabinet modern, dotat cu echipamente medicale de ultimă generație</li>
+        <li>Acces la rețete compensate și gratuite prin Casa de Asigurări</li>
+      </ul>
+  </div>
+
+</div>
     
 </x-app-layout>
