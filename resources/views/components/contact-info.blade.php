@@ -8,7 +8,7 @@
             </svg>
             Adresă:
         </span> 
-        Str. Sănătății nr. 12, București
+        Str. Sănătății nr. 12, Năvodari, Județul Constanța
       </li>
       <li class="flex flex-row items-center gap-2" >
         <span class="text-teal-700 font-semibold flex flex-row items-center gap-2">
