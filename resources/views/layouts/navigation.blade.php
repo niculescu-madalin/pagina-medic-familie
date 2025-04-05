@@ -17,7 +17,7 @@
             <!-- Navigation Links -->
             <div class="hidden sm:ms-10 sm:flex sm:flex-row sm:justify-end gap-1.5">
                 <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                    {{ __('Despre') }}
+                    {{ __('Pagina principală') }}
                 </x-nav-link>
                 <x-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
                     {{ __('Contact') }}
@@ -41,7 +41,7 @@
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                {{ __('Despre') }}
+                {{ __('Pagina principală') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
                 {{ __('Contact') }}
