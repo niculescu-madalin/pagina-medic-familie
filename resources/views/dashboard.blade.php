@@ -10,7 +10,7 @@
         </div>
         <!-- Item 2 -->
         <div class=" hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="./assets/cabinet.jpg" class="absolute block w-full h-[500px] object-cover -translate-x-1/2 -translate-y-1/2 left-full top-full" alt="...">
+            <img src="./assets/medic.webp" class="absolute block w-full h-[500px] object-cover -translate-x-1/2 -translate-y-1/2 left-full top-full" alt="...">
         </div>
 
     </div>
