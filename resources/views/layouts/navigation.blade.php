@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-teal-600 border-b border-sky-900">
+<nav x-data="{ open: false }" class="backdrop-blur-md bg-teal-600/60 shadow-md fixed top-0 w-full z-50">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -8,7 +8,7 @@
                     <a href="{{ route('dashboard') }}">
                         <x-application-logo class="block h-9 w-auto fill-current text-white" />
                     </a>
-                    <div class="hidden sm:flex sm:items-center sm:justify-center text-white mx-4 font-bold text-xl pt-0.5">
+                    <div class="flex items-center justify-center text-white mx-4 font-semibold text-xl pt-0.5">
                         Cabinet Medical
                     </div>
                 </div>
