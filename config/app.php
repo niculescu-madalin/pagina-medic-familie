@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Cabinet Medical'),
+    'name' => env('APP_NAME', 'Dr. Andrei Popescu - Cabinet Medical'),
 
     /*
     |--------------------------------------------------------------------------

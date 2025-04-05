@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="description" content="Cabinet Medical">
-        <meta name="keywords" content="cabinet medical, cabinet, medical, doctor, medic, cabinet de medicina generala">
-        <title>{{ config('app.name', 'Cabinet Medical') }}</title>
+        <meta name="keywords" content="cabinet medical, cabinet, medical, doctor, medic, cabinet de medicina generala,, cabinet de familie, Andrei Popescu, Andrei, Popescu, medic de familie, medic generalist">
+        <title>{{ config('app.name', 'Dr. Andrei Popescu - Cabinet Medical') }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -19,7 +19,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="flex flex-col h-screen justify-between font-sans antialiased">
+    <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
@@ -33,7 +33,7 @@
             @endisset
 
             <!-- Page Content -->
-            <main class="flex-grow">
+            <main>
                 {{ $slot }}
             </main>
 
