@@ -38,7 +38,7 @@
     </button>
 </div>
 
-<div class="mx-auto p-4 flex flex-col lg:flex-row gap-2">
+<div class="mx-auto lg:max-w-7xl p-4 flex flex-col lg:flex-row gap-2">
     <div class="bg-white rounded-2xl border p-8 basis-1/2">
       <h1 class="text-3xl font-bold text-teal-700 mb-2">Dr. Andrei Popescu</h1>
       <p class="text-xl text-gray-600 mb-4">Medic de Familie</p>
@@ -96,5 +96,8 @@
   </div>
 
 </div>
+
+
+
     
 </x-app-layout>
