@@ -105,25 +105,37 @@
       </div>
     </div>
 
-  <div class="bg-white rounded-2xl border border-teal-600 p-8 basis-1/2">
-    <h2 class="text-3xl font-semibold text-teal-800 mb-3">Servicii oferite</h2>
-      <ul class="list-disc list-inside space-y-2 text-base">
-        <li>Consultații generale și de specialitate în medicina de familie</li>
-        <li>Monitorizarea și tratamentul bolilor cronice (diabet, hipertensiune, astm, etc.)</li>
-        <li>Vaccinări pentru copii și adulți</li>
-        <li>Eliberare de adeverințe medicale, concedii, fișe medicale</li>
-        <li>Consultații la domiciliu pentru pacienții nedeplasabili</li>
-        <li>Consiliere privind nutriția și stilul de viață sănătos</li>
-        <li>Colaborare cu specialiști pentru investigații suplimentare</li>
+  <div class="overflow-hidden bg-white rounded-2xl border border-teal-600 basis-1/2">
+    <h2 class="pt-8 px-8 text-3xl font-semibold text-teal-800 mb-3">Servicii oferite</h2>
+      <ul class="list-none text-base">
+        <li class="px-8 bg-teal-50 p-2 ">
+            Consultații generale și de specialitate în medicina de familie </li>
+        <li class="px-8 bg-white p-2 ">
+            Monitorizarea și tratamentul bolilor cronice (diabet, hipertensiune, astm, etc.)</li>
+        <li class="px-8 bg-teal-50 p-2 ">
+            Vaccinări pentru copii și adulți</li>
+        <li class="px-8 bg-white p-2 ">
+            Eliberare de adeverințe medicale, concedii, fișe medicale</li>
+        <li class="px-8 bg-teal-50 p-2 ">
+            Consultații la domiciliu pentru pacienții nedeplasabili</li>
+        <li class="px-8 bg-white p-2 ">
+            Consiliere privind nutriția și stilul de viață sănătos</li>
+        <li class="px-8 bg-teal-50 p-2 ">
+            Colaborare cu specialiști pentru investigații suplimentare</li>
       </ul>
 
-      <h2 class="text-2xl font-semibold text-teal-800 mt-10 mb-3">De ce să ne alegi?</h2>
-      <ul class="list-disc list-inside space-y-2 text-base">
-        <li>Răbdare, empatie și comunicare clară cu fiecare pacient</li>
-        <li>Acces rapid la consultații, fără liste de așteptare interminabile</li>
-        <li>Program flexibil și consultații adaptate nevoilor fiecăruia</li>
-        <li>Cabinet modern, dotat cu echipamente medicale de ultimă generație</li>
-        <li>Acces la rețete compensate și gratuite prin Casa de Asigurări</li>
+      <h2 class="px-8 text-2xl font-semibold text-teal-800 mt-10 mb-3">De ce să ne alegi?</h2>
+      <ul class="list-none list-inside space-y-2 text-base">
+        <li class="px-8 bg-teal-50 p-2 ">
+            Răbdare, empatie și comunicare clară cu fiecare pacient</li>
+        <li class="px-8 bg-white p-2 ">
+            Acces rapid la consultații, fără liste de așteptare interminabile</li>
+        <li class="px-8 bg-teal-50 p-2 ">
+            Program flexibil și consultații adaptate nevoilor fiecăruia</li>
+        <li class="px-8 bg-white p-2 ">
+            Cabinet modern, dotat cu echipamente medicale de ultimă generație</li>
+        <li class="px-8 pb-4 bg-teal-50 p-2 ">
+            Acces la rețete compensate și gratuite prin Casa de Asigurări</li>
       </ul>
   </div>
 
