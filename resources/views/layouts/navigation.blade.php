@@ -22,6 +22,9 @@
                 <x-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
                     {{ __('Contact') }}
                 </x-nav-link>
+                <x-nav-link :href="route('galery')" :active="request()->routeIs('galery')">
+                    {{ __('Galerie') }}
+                </x-nav-link>
             </div>
 
         
@@ -45,6 +48,9 @@
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
                 {{ __('Contact') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('galery')" :active="request()->routeIs('galery')">
+                {{ __('Galerie') }}
             </x-responsive-nav-link>
         </div>
     </div>
