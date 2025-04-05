@@ -7,13 +7,13 @@
 </x-slot>
 <div class="">
 
-<div class="grid lg:grid-cols-2 gap-2 bg-white">
+<div class="grid lg:grid-cols-2 gap-2  lg:mx-auto lg:max-w-7xl lg:p-6">
     <!-- Informații de contact -->
     <div class="p-6">
         <x-contact-info> </x-contact-info>
         <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.854155301763!2d28.612054194742463!3d44.319822021899824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf5ce75dd3045%3A0x2f886c32de9d6485!2zU3RyYWRhIFPEg27Eg3TEg8ibaWkgMTIsIE7Eg3ZvZGFyaSA5MDU3MDA!5e0!3m2!1sro!2sro!4v1743885927730!5m2!1sro!2sro" 
-            class="w-full h-96 rounded-lg border mt-2"
+            class="w-full h-96 rounded-lg border-2 border-teal-700 mt-2"
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
@@ -21,10 +21,12 @@
 
     </div>
 
-    <section class="bg-white px-6">
+    <section class=" px-6">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-semibold text-center text-gray-900 ">Contactați-ne</h2>
-            <p class="mb-8 lg:mb-16 font-medium text-center text-gray-500 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+            <p class="mb-8 lg:mb-16 font-medium text-center text-gray-500 sm:text-xl">
+                Ai o întrebare legată de serviciile noastre? Vrei să ne transmiți un feedback despre vizita ta la cabinet? Ai nevoie de detalii legate de programări, rețete sau consultații la domiciliu? Scrie-ne și îți răspundem cu drag!
+            </p>
             <form action="#" class="space-y-8">
                 <div>
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Email-ul dumneavoastră</label>
