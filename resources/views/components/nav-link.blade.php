@@ -13,7 +13,7 @@ $inactiveClasses = 'inline-flex items-center '.
     'rounded-lg '.
     'text-md font-semibold text-white '.
     'hover:text-gray-700 hover:border-gray-300' .
-    'hover:bg-white '.
+    'bg-white/0 hover:bg-white/20 '.
     'focus:outline-none focus:text-gray-100 focus:border-gray-300 '.
     'transition duration-150 ease-in-out';
 

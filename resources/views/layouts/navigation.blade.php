@@ -15,7 +15,7 @@
                 
             </div>
             <!-- Navigation Links -->
-            <div class="hidden sm:ms-10 sm:flex sm:flex-row sm:justify-end">
+            <div class="hidden sm:ms-10 sm:flex sm:flex-row sm:justify-end gap-1">
                 <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                     {{ __('Despre') }}
                 </x-nav-link>
