@@ -9,7 +9,7 @@
 
 <div class="grid lg:grid-cols-2 gap-2  lg:mx-auto lg:max-w-7xl lg:p-6">
     <!-- Informații de contact -->
-    <div class="p-6">
+    <div class="p-2">
         <x-contact-info> </x-contact-info>
         <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.854155301763!2d28.612054194742463!3d44.319822021899824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf5ce75dd3045%3A0x2f886c32de9d6485!2zU3RyYWRhIFPEg27Eg3TEg8ibaWkgMTIsIE7Eg3ZvZGFyaSA5MDU3MDA!5e0!3m2!1sro!2sro!4v1743885927730!5m2!1sro!2sro" 
