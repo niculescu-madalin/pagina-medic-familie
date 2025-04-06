@@ -22,18 +22,20 @@
     </div>
 
     <section class=" px-6">
+        
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-semibold text-center text-gray-900 ">Contactați-ne</h2>
             <p class="mb-8 lg:mb-16 font-medium text-center text-gray-500 sm:text-xl">
                 Ai o întrebare legată de serviciile noastre? Vrei să ne transmiți un feedback despre vizita ta la cabinet? Ai nevoie de detalii legate de programări, rețete sau consultații la domiciliu? Scrie-ne și îți răspundem cu drag!
             </p>
-            @if (session('success'))
-                <div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50" role="alert">
-                    {{ session('success') }}
-                </div>
-            @endif
+            
             <form action="{{ route('contact.submit') }}" method="POST" class="space-y-8">
                 @csrf
+                @if (session('success'))
+                    <div class="border border-teal-800 p-4 mb-4 text-sm text-teal-900 rounded bg-teal-100" role="alert">
+                        {{ session('success') }}
+                    </div>
+                @endif
                 <div>
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email-ul dumneavoastră</label>
                     <input type="email" name="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-teal-500 focus:border-teal-500 block w-full p-2.5" placeholder="your@email.com" required>
