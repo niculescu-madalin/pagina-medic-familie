@@ -3,7 +3,7 @@
 
 <div id="default-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class=" relative h-80 overflow-hidden rounded-lg">
+    <div class=" relative h-80 overflow-hidden">
          <!-- Item 1 -->
         <div class=" hidden duration-700 ease-in-out" data-carousel-item>
             <img src="./assets/cabinet.jpg" class="absolute block w-full h-[500px] object-cover -translate-x-1/2 -translate-y-1/2 left-full top-full" alt="...">
@@ -38,8 +38,8 @@
     </button>
 </div>
 
-<div class="mx-auto lg:max-w-7xl p-4 flex flex-col lg:flex-row gap-2">
-    <div class="bg-white rounded-2xl border p-8 basis-1/2">
+<div class="items-start mx-auto lg:max-w-7xl p-4 flex flex-col lg:flex-row gap-2">
+    <div class="shadow bg-white rounded-lg border border-b-4 p-8 basis-1/2">
       <h1 class="text-3xl font-bold text-teal-700 mb-2">Dr. Andrei Popescu</h1>
       <p class="text-xl text-gray-600 mb-4">Medic de Familie</p>
 
@@ -61,36 +61,36 @@
       </div>
     </div>
 
-  <div class="overflow-hidden bg-white rounded-2xl border border-teal-600 basis-1/2">
+  <div class="w-full overflow-hidden bg-white rounded-lg border border-b-4 shadow border-teal-600 basis-1/2">
     <h2 class="pt-8 px-8 text-3xl font-semibold text-teal-800 mb-3">Servicii oferite</h2>
       <ul class="list-none text-base">
-        <li class="px-8 bg-teal-50 p-2 ">
+        <li class="px-8 bg-teal-50 py-2 ">
             Consultații generale și de specialitate în medicina de familie </li>
-        <li class="px-8 bg-white p-2 ">
+        <li class="px-8 bg-white py-2 ">
             Monitorizarea și tratamentul bolilor cronice (diabet, hipertensiune, astm, etc.)</li>
-        <li class="px-8 bg-teal-50 p-2 ">
+        <li class="px-8 bg-teal-50 py-2 ">
             Vaccinări pentru copii și adulți</li>
-        <li class="px-8 bg-white p-2 ">
+        <li class="px-8 bg-white py-2 ">
             Eliberare de adeverințe medicale, concedii, fișe medicale</li>
-        <li class="px-8 bg-teal-50 p-2 ">
+        <li class="px-8 bg-teal-50 py-2 ">
             Consultații la domiciliu pentru pacienții nedeplasabili</li>
-        <li class="px-8 bg-white p-2 ">
+        <li class="px-8 bg-white py-2 ">
             Consiliere privind nutriția și stilul de viață sănătos</li>
-        <li class="px-8 bg-teal-50 p-2 ">
+        <li class="px-8 bg-teal-50 py-2 ">
             Colaborare cu specialiști pentru investigații suplimentare</li>
       </ul>
 
       <h2 class="px-8 text-2xl font-semibold text-teal-800 mt-10 mb-3">De ce să ne alegi?</h2>
       <ul class="list-none list-inside space-y-2 text-base">
-        <li class="px-8 bg-teal-50 p-2 ">
+        <li class="px-8 bg-teal-50 py-2 ">
             Răbdare, empatie și comunicare clară cu fiecare pacient</li>
-        <li class="px-8 bg-white p-2 ">
+        <li class="px-8 bg-white py-2 ">
             Acces rapid la consultații, fără liste de așteptare interminabile</li>
-        <li class="px-8 bg-teal-50 p-2 ">
+        <li class="px-8 bg-teal-50 py-2 ">
             Program flexibil și consultații adaptate nevoilor fiecăruia</li>
-        <li class="px-8 bg-white p-2 ">
+        <li class="px-8 bg-white py-2 ">
             Cabinet modern, dotat cu echipamente medicale de ultimă generație</li>
-        <li class="px-8 pb-4 bg-teal-50 p-2 ">
+        <li class="px-8 pb-4 bg-teal-50 pt-2">
             Acces la rețete compensate și gratuite prin Casa de Asigurări</li>
       </ul>
   </div>
