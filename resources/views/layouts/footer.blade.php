@@ -2,50 +2,38 @@
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-            <ul class="text-gray-500 dark:text-gray-300 font-medium">
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Companie</h2>
+            <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class=" hover:underline">About</a>
+                    <a href="#" class=" hover:underline">Despre</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Careers</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Brand Center</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Blog</a>
+                    <a href="#" class="hover:underline">Galerie</a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Discord Server</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Twitter</a>
-                </li>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+            <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Facebook</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Contact Us</a>
+                    <a href="#" class="hover:underline">Instagram</a>
+                </li>
+                <li class="mb-4">
+                    <a href="/contact" class="hover:underline">Contactați-ne</a>
                 </li>
             </ul>
         </div>
         <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <a href="#" class="hover:underline">Politica de confidentialitate</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Licensing</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                    <a href="#" class="hover:underline">Termeni &amp; Conditi</a>
                 </li>
             </ul>
         </div>
