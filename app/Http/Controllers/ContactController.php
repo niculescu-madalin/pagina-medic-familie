@@ -15,12 +15,11 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        // Send an email
-        Mail::raw($validated['message'], function ($message) use ($validated) {
-            $message->to('admin@example.com')
-                    ->subject($validated['subject'])
-                    ->from($validated['email']);
-        });
+        $message = $validated['message'];
+
+        Mail::to($validated['email'])->send(
+            new \App\Mail\ContactReply($validated)
+        );
 
         return back()->with('success', 'Mesajul dumneavoastră a fost trimis cu succes!');
     }

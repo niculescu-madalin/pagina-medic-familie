@@ -1,6 +1,6 @@
 <div>
-    <h1>Thank You for Contacting Us</h1>
+    <h2>Thank You for Contacting Us</h2>
     <p>We have received your message:</p>
-    <blockquote>{{ $message }}</blockquote>
+    <blockquote>{{ $request['message'] }}</blockquote>
     <p>We will get back to you shortly.</p>
 </div>

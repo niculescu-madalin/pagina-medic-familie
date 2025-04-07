@@ -30,6 +30,9 @@ Route::get('/terms', function () {
     return view('legal.terms');
 })->name('legal.terms');
 
+
+
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

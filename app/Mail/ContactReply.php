@@ -9,6 +9,8 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
+use Illuminate\Http\Request;
+
 class ContactReply extends Mailable
 {
     use Queueable, SerializesModels;
@@ -16,7 +18,7 @@ class ContactReply extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct(public array $request)
     {
         //
     }
@@ -27,7 +29,7 @@ class ContactReply extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contact Reply',
+            subject: 'Thank you for your message',
         );
     }
 
