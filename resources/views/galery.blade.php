@@ -5,11 +5,11 @@
 <div class="py-20 px-10 grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="grid gap-4">
         <div>
-            <img class="h-auto max-w-full rounded-md" src="./assets/cabinet.jpg" alt="">
+            <img class="h-auto max-w-full rounded-md" src="./compressed-assets/cabinet.jpg" alt="">
         </div>
         
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./assets/medic2.jpg" alt="">
+            <img class="h-auto max-w-full rounded-lg" src="./compressed-assets/medic2.jpg" alt="">
         </div>
         <div>
             <video class="h-auto max-w-full rounded-lg" controls>
@@ -26,11 +26,11 @@
             </video>
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-md" src="./assets/cabinet2.jpg" alt="">
+            <img class="h-auto max-w-full rounded-md" src="./compressed-assets/cabinet2.jpg" alt="">
         </div>
         
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./assets/cabinet3.jpg" alt="">
+            <img class="h-auto max-w-full rounded-lg" src="./compressed-assets/cabinet3.jpg" alt="">
         </div>  
     </div>
 </div>
