@@ -33,7 +33,7 @@
                     <a href="/privacy" class="hover:underline">Politica de confidentialitate</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Termeni &amp; Conditi</a>
+                    <a href="/terms" class="hover:underline">Termeni &amp; Conditi</a>
                 </li>
             </ul>
         </div>
