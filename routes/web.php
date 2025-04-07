@@ -28,4 +28,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::post('/image/blur', [\App\Http\Controllers\ImageController::class, 'blur']);
+Route::post('/image/rotate', [\App\Http\Controllers\ImageController::class, 'rotate']);
+Route::post('/image/scale', [\App\Http\Controllers\ImageController::class, 'scale']);
+Route::post('/image/crop', [\App\Http\Controllers\ImageController::class, 'crop']);
+Route::post('/data/rle-compress', [\App\Http\Controllers\ImageController::class, 'rleCompress']);
+
 require __DIR__.'/auth.php';
