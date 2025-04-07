@@ -16,10 +16,10 @@
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
             <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Facebook</a>
+                    <a href="https://www.facebook.com/" class="hover:underline">Facebook</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Instagram</a>
+                    <a href="https://www.whatsapp.com/" class="hover:underline">Whatsapp</a>
                 </li>
                 <li class="mb-4">
                     <a href="/contact" class="hover:underline">Contactați-ne</a>

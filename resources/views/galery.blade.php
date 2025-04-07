@@ -30,7 +30,7 @@
         </div>
         
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./compressed-assets/cabinet3.jpg" alt="">
+            <img class="rotate-90 h-auto max-w-full rounded-lg" src="./compressed-assets/cabinet3.jpg" alt="">
         </div>  
     </div>
 </div>
