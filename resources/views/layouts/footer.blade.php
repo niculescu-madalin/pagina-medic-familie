@@ -5,10 +5,10 @@
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Companie</h2>
             <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class=" hover:underline">Despre</a>
+                    <a href="/" class=" hover:underline">Despre</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Galerie</a>
+                    <a href="/galery" class="hover:underline">Galerie</a>
                 </li>
             </ul>
         </div>
