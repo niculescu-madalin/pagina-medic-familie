@@ -15,7 +15,7 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        // Example: Send an email (you can customize this as needed)
+        // Send an email
         Mail::raw($validated['message'], function ($message) use ($validated) {
             $message->to('admin@example.com')
                     ->subject($validated['subject'])
