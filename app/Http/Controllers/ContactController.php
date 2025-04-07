@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
+use App\Models\ContactMessage;
+
 class ContactController extends Controller
 {
     public function submit(Request $request)
@@ -15,7 +17,8 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        $message = $validated['message'];
+        // Create a new ContactMessage instance
+        ContactMessage::create($validated);
 
         Mail::to($validated['email'])->send(
             new \App\Mail\ContactReply($validated)
