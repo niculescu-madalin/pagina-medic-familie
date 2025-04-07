@@ -28,10 +28,27 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::post('/image/blur', [\App\Http\Controllers\ImageController::class, 'blur']);
-Route::post('/image/rotate', [\App\Http\Controllers\ImageController::class, 'rotate']);
-Route::post('/image/scale', [\App\Http\Controllers\ImageController::class, 'scale']);
-Route::post('/image/crop', [\App\Http\Controllers\ImageController::class, 'crop']);
-Route::post('/data/rle-compress', [\App\Http\Controllers\ImageController::class, 'rleCompress']);
+
+use App\Http\Controllers\ImageController;
+
+Route::get('/compress-assets', function () {
+    $imageController = new ImageController();
+
+    $assetsPath = public_path('assets');
+    $outputPath = public_path('compressed-assets');
+
+    if (!file_exists($outputPath)) {
+        mkdir($outputPath, 0777, true);
+    }
+
+    foreach (glob($assetsPath . '/*.{jpg,jpeg,png,webp}', GLOB_BRACE) as $filePath) {
+        $fileName = basename($filePath);
+        $imageController->compressImage($filePath, $outputPath . '/' . $fileName);
+    }
+
+    return "All images compressed and saved to 'compressed-assets' folder.";
+});
+
+
 
 require __DIR__.'/auth.php';
