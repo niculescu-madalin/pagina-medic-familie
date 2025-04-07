@@ -31,24 +31,5 @@ Route::middleware('auth')->group(function () {
 
 use App\Http\Controllers\ImageController;
 
-Route::get('/compress-assets', function () {
-    $imageController = new ImageController();
-
-    $assetsPath = public_path('assets');
-    $outputPath = public_path('compressed-assets');
-
-    if (!file_exists($outputPath)) {
-        mkdir($outputPath, 0777, true);
-    }
-
-    foreach (glob($assetsPath . '/*.{jpg,jpeg,png,webp}', GLOB_BRACE) as $filePath) {
-        $fileName = basename($filePath);
-        $imageController->compressImage($filePath, $outputPath . '/' . $fileName);
-    }
-
-    return "All images compressed and saved to 'compressed-assets' folder.";
-});
-
-
 
 require __DIR__.'/auth.php';
