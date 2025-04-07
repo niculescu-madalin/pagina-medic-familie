@@ -18,6 +18,7 @@
         "vite": "^6.2.4"
     },
     "dependencies": {
-        "browser-image-compression": "^2.0.2"
+        "browser-image-compression": "^2.0.2",
+        "sharp": "^0.34.0"
     }
 }
